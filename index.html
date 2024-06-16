@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap">
+</head>
+<body>
+    <header id="main-header">
+        <h1>Galería de Fotos</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar por foto...">
+            <i class="fas fa-search"></i>
+        </div>
+    </header>
+    <div class="gallery-container" id="gallery-container">
+        <section class="popular-artists">
+            <h2>Personas en tus fotos</h2>
+            <div class="carousel">
+                <div class="carousel-item"><img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Sam Watson"><p>Sam Watson</p></div>
+                <div class="carousel-item"><img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Lynda Nathan"><p>Lynda Nathan</p></div>
+                <div class="carousel-item"><img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Megan Adam"><p>Megan Adam</p></div>
+                <div class="carousel-item"><img src="https://randomuser.me/api/portraits/men/4.jpg" alt="Joe Carter"><p>Joe Carter</p></div>
+                <!-- Agrega más personas aquí -->
+            </div>
+        </section>
+        <section class="featured">
+            <h2>Destacados</h2>
+            <div class="image-grid">
+                <div class="image-item"><img src="https://images.pexels.com/photos/25729693/pexels-photo-25729693/free-photo-of-glaciar-nieve-nevar-paisaje.jpeg" alt="Paisaje 1" data-title="Vista del atardecer" data-date="2023-01-01"></div>
+                <div class="image-item"><img src="https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Paisaje 2" data-title="Montaña nevada" data-date="2023-01-02"></div>
+                <div class="image-item"><img src="https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Paisaje 3" data-title="Camino en el bosque" data-date="2023-01-03"></div>
+                <div class="image-item"><img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Paisaje 4" data-title="Playa tranquila" data-date="2023-01-04"></div>
+                <div class="image-item"><img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Paisaje 5" data-title="Dunas del desierto" data-date="2023-01-05"></div>
+                <div class="image-item"><img src="https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Paisaje 6" data-title="Vista de la ciudad" data-date="2023-01-06"></div>
+            </div>
+        </section>
+        <section class="for-you">
+            <h2>Para Ti</h2>
+            <div class="image-grid">
+                <div class="image-item"><img src="https://images.pexels.com/photos/355321/pexels-photo-355321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Paisaje 7" data-title="Lago sereno" data-date="2023-01-07"></div>
+                <div class="image-item"><img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Paisaje 8" data-title="Hojas de otoño" data-date="2023-01-08"></div>
+                <div class="image-item"><img src="https://images.pexels.com/photos/462353/pexels-photo-462353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Paisaje 9" data-title="Montañas nevadas" data-date="2023-01-09"></div>
+                <div class="image-item"><img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Paisaje 10" data-title="Río en el bosque" data-date="2023-01-10"></div>
+                <div class="image-item"><img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Paisaje 11" data-title="Cascada impresionante" data-date="2023-01-11"></div>
+                <div class="image-item"><img src="https://images.pexels.com/photos/1738986/pexels-photo-1738986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Paisaje 12" data-title="Atardecer en la playa" data-date="2023-01-12"></div>
+                <div class="image-item"><img src="https://images.pexels.com/photos/355321/pexels-photo-355321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Paisaje 13" data-title="Valle verde" data-date="2023-01-13"></div>
+                <div class="image-item"><img src="https://images.pexels.com/photos/462353/pexels-photo-462353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Campo de flores" data-title="Campo de flores" data-date="2023-01-14"></div>
+                <div class="image-item"><img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Paisaje 15" data-title="Cañón espectacular" data-date="2023-01-15"></div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
+                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                <li><a href="#"><i class="fas fa-search"></i></a></li>
+                <li><a href="#"><i class="fas fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Detalles de la Imagen</h2>
+                <span class="modal-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="Imagen Seleccionada">
+                <p id="modalDate"></p>
+            </div>
+            <div class="modal-footer">
+                <button id="downloadBtn">Descargar</button>
+                <button id="shareBtn">Compartir</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contador de imágenes seleccionadas -->
+    <div class="selected-counter" id="selectedCounter">Seleccionadas: 0</div>
+
+    <script>
+        const modal = document.getElementById("imageModal");
+        const modalImage = document.getElementById("modalImage");
+        const modalDate = document.getElementById("modalDate");
+        const modalTitle = document.getElementById("modalTitle");
+        const closeModal = document.getElementsByClassName("modal-close")[0];
+        let selectedCount = 0;
+        let isSelecting = false;
+        let selectMode = false;
+        let longPressTimeout;
+
+        document.querySelectorAll('.image-grid .image-item img').forEach(image => {
+            image.addEventListener('click', async function(event) {
+                event.preventDefault(); // Prevenir acciones predeterminadas
+                if (!selectMode) {
+                    modal.style.display = "block";
+                    modalImage.src = this.src;
+                    const title = await getImageTitle(this.src);
+                    modalTitle.textContent = title;
+                    modalDate.textContent = `Fecha de subida: ${this.getAttribute('data-date')}`;
+                } else {
+                    toggleSelect(this.parentElement);
+                }
+            });
+
+            image.addEventListener('contextmenu', function(event) {
+                event.preventDefault(); // Prevenir el menú contextual
+            });
+
+            image.addEventListener('touchstart', function() {
+                if (!selectMode) {
+                    longPressTimeout = setTimeout(() => {
+                        selectMode = true;
+                        toggleSelect(this.parentElement);
+                    }, 3000); // 3 segundos para activar el modo selección
+                }
+            });
+
+            image.addEventListener('touchend', function() {
+                clearTimeout(longPressTimeout);
+            });
+        });
+
+        closeModal.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        document.getElementById("downloadBtn").onclick = function() {
+            const link = document.createElement('a');
+            link.href = modalImage.src;
+            link.download = 'imagen.jpg';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        document.getElementById("shareBtn").onclick = function() {
+            if (navigator.share) {
+                navigator.share({
+                    title: modalTitle.textContent,
+                    text: 'Mira esta imagen',
+                    url: modalImage.src,
+                }).catch(console.error);
+            } else {
+                alert('La API de compartir no está disponible en tu navegador.');
+            }
+        }
+
+        function toggleSelect(element) {
+            element.classList.toggle('selected');
+            if (element.classList.contains('selected')) {
+                selectedCount++;
+            } else {
+                selectedCount--;
+            }
+            updateSelectedCounter();
+        }
+
+        function updateSelectedCounter() {
+            const counter = document.getElementById('selectedCounter');
+            counter.textContent = `Seleccionadas: ${selectedCount}`;
+            counter.classList.toggle('show', selectedCount > 0);
+            if (selectedCount === 0) {
+                selectMode = false;
+            }
+        }
+
+        // Función para obtener el título de la imagen (ejemplo ficticio)
+        async function getImageTitle(imageUrl) {
+            // Supongamos que tenemos una API que nos da un título basado en la imagen
+            const response = await fetch(`https://api.imagerecognition.com/getTitle?url=${encodeURIComponent(imageUrl)}`);
+            const data = await response.json();
+            return data.title;
+        }
+    </script>
+</body>
+</html>
